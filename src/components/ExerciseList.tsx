@@ -13,7 +13,7 @@ const availableExercises: Exercise[] = [
 export function ExerciseList() {
     return (
         <div>
-            <h3>Lista de exercícios disponíveis:</h3>
+            <h3>Lista de exercícios disponíveis: (҂◡_◡) ᕤ</h3>
             <ul>
                 {availableExercises.map((idx) => (
                     <li key={idx.id}>
@@ -21,6 +21,7 @@ export function ExerciseList() {
                     </li>
                 ))}
             </ul>
+            <p>:: só mude de tarefa, após ter concluído a atual :: ─=≡Σ((( つ◕ل͜◕)つ</p>
         </div>
     )
 };
